@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dream11 Ipl Add Team</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/6f5013579e.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body id="add">
+    <header>
+      <div id="head-container">
+        <div class="d-flex">
+          <div>
+            <a href="index.html">
+              <img src="img/logo.png" alt="logo here" id="logo" />
+            </a>
+          </div>
+          <div class="d-flex">
+            <a href="index.html" class="add-button">Home</a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div id="add-team">
+      <form id="addteamform">
+      <div class="teamadd">
+        <h1 class="teams1">Add a Team</h1>
+        <input
+          id="inp1"
+          type="text"
+          name="teamName"
+          placeholder="Enter team name here.."
+          required
+        />
+        <input
+          id="inp3"
+          type="text"
+          name="logoUrl"
+          placeholder="enter logo URL here.."
+          required
+        />
+        <input
+          id="inp4"
+          type="number"
+          name="wonCount"
+          maxlength="1"
+          placeholder="enter won count here.."
+          required
+        />
+
+        <div class="submit">
+          <button type="submit">Add team</button>
+        </div>
+      </div>
+      </form>
+    </div>
+    <footer>
+      <div>
+        <a href="mailto:ipl.com">Contact us our Dream11 Ipl.com</a>
+      </div>
+    </footer>
+  <script src="./width.js"></script>
+  <script src="./addteam.js"></script>
+  </body>
+</html>
